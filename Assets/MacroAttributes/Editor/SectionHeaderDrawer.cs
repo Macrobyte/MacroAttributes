@@ -4,21 +4,21 @@ using UnityEngine;
 
 namespace MacroAttributes.Editor
 {
-    [CustomPropertyDrawer(typeof(CategoryAttribute))]
-    public class CategoryDrawer : DecoratorDrawer
+    [CustomPropertyDrawer(typeof(SectionHeaderAttribute))]
+    public class SectionHeaderDrawer : DecoratorDrawer
     {
         public override void OnGUI(Rect position)
         {
-            CategoryAttribute category = (CategoryAttribute)attribute;
+            SectionHeaderAttribute sectionHeader = (SectionHeaderAttribute)attribute;
 
             // Styling
             GUIStyle style = new GUIStyle(GUI.skin.label);
-            style.alignment = category.textAnchor;
+            style.alignment = sectionHeader.TextAnchor;
             style.fontStyle = FontStyle.Bold;
-            style.fontSize = 15;
+            style.fontSize = sectionHeader.FontSize;
 
             // Draw the category label
-            EditorGUI.LabelField(position, category.label, style);
+            EditorGUI.LabelField(position, sectionHeader.Label, style);
         }
 
         public override float GetHeight()
