@@ -1,8 +1,8 @@
 # 📦 MacroAttributes — Inspector Attributes for Unity
 <p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
-  <img src="https://img.shields.io/badge/Unity-2023.1.0f1-blue.svg?style=for-the-badge" alt="Unity Version" />
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg?style=for-the-badge" alt="Supported Platforms" />
+  <img src="https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity" alt="Made with Unity" />
+  <img src="https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge" alt="License: MIT" />
+  <img src="https://img.shields.io/github/v/release/yourusername/MacroAttributes?style=for-the-badge" alt="Latest Release" />
 </p>
 A lightweight, open-source toolkit by Macrobyte (Vasco Almeida) that enhances readability, structure, and workflow in Unity’s Inspector using custom attributes.
 Instantly improve inspector clarity and polish.
