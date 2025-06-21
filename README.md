@@ -9,6 +9,7 @@
     <img src="https://img.shields.io/github/v/release/macrobyte/MacroAttributes?style=for-the-badge" alt="Latest Release" />
   </a>
 </p>
+
 # 📦 MacroAttributes — Inspector Attributes for Unity
 A lightweight, open-source toolkit by Macrobyte (Vasco Almeida) that enhances readability, structure, and workflow in Unity’s Inspector using custom attributes.
 Instantly improve inspector clarity and polish.
