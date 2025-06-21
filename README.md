@@ -14,24 +14,47 @@
 A lightweight kit that enhances readability, structure, and workflow in Unity’s Inspector using custom attributes.
 Ideal for reusing across your Unity games and tools, with clear and simple integration.
 
----
-
 ## 🔍 Features
 
 - **ReadOnly**, **Divider**, **Category** – built-in attributes for cleaner and more organized inspectors.
 - Sticker-style visuals for inspector decoration—ideal for quick layout improvements.
 - Clean, modular code with a distinct namespace (`MacroAttributes`) to avoid conflicts.
 
----
-
 ## 🛠 Getting Started
 
 1. **Drop** the `MacroAttributes` folder into your project.  
 2. **Decorate** your serialized fields like this:
 
-    ```csharp
-    [ReadOnly]
-    [Divider]
-    [Category("Gameplay Settings", TextAnchor.MiddleCenter)]
-    ```
-    
+```csharp
+using UnityEngine;
+using MacroAttributes;
+
+public class GameSettings : MonoBehaviour
+{
+     [SectionHeader("Gameplay Settings")]
+     [ReadOnly]
+     public int maxPlayers = 4;
+
+     [Divider]
+     
+     [SectionHeader("Graphics Settings", TextAnchor.MiddleCenter, 20)]
+     public bool enableShadows = true;
+     
+     [Divider(10f, "#FF0000")]
+     
+     [SectionHeader("Audio Settings", TextAnchor.MiddleRight, 18)]
+     public float masterVolume = 0.5f;
+}
+```
+
+## ⚙️ Constructor Overloads
+
+| Attribute       | Constructor Call                                       | Description                                       |
+| --------------- | ------------------------------------------------------ | ------------------------------------------------- |
+| `SectionHeader` | `[SectionHeader("Title")]`                             | Default alignment = `UpperLeft`, font size = `16` |
+| `SectionHeader` | `[SectionHeader("Title", TextAnchor.MiddleCenter)]`    | Custom alignment                                  |
+| `SectionHeader` | `[SectionHeader("Title", TextAnchor.MiddleRight, 18)]` | Custom alignment + font size                      |
+| `Divider`       | `[Divider]`                                            | Default height (`5f`) & grey color (`#808080FF`)  |
+| `Divider`       | `[Divider(10f)]`                                       | Custom height & default color                     |
+| `Divider`       | `[Divider(10f, "#FF0000")]`                            | Custom height & custom hex color (red)            |
+  
