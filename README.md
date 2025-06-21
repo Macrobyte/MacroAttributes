@@ -6,7 +6,8 @@
     <img src="https://img.shields.io/badge/license-CC%20BY--ND%204.0%20International-lightgrey.svg?style=for-the-badge&logo=creativecommons" alt="License: CC BY-ND 4.0" />
   </a>
   <a href="https://github.com/macrobyte/MacroAttributes/releases">
-    <img src="https://img.shields.io/github/v/release/macrobyte/MacroAttributes?style=for-the-badge" alt="Latest Release" />
+    <img src="https://img.shields.io/github/v/release/Macrobyte/MacroAttributes?style=for-the-badge" alt="Latest Release" />
+    
   </a>
 </p>
 
