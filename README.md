@@ -1,7 +1,7 @@
 # 📦 MacroAttributes — Inspector Attributes for Unity
 <p align="center">
   <img src="https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity" alt="Made with Unity" />
-  <img src="https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge" alt="License: MIT" />
+  <img src="https://img.shields.io/badge/License-CC%20BY--ND%204.0%20International-lightgrey.svg?style=for-the-badge&logo=creativecommons" alt="License: CC BY-ND 4.0" />
   <img src="https://img.shields.io/github/v/release/yourusername/MacroAttributes?style=for-the-badge" alt="Latest Release" />
 </p>
 A lightweight, open-source toolkit by Macrobyte (Vasco Almeida) that enhances readability, structure, and workflow in Unity’s Inspector using custom attributes.
@@ -30,10 +30,3 @@ Ideal for reusing across your Unity games and tools, with clear and simple integ
     ```
 
 3. **Enjoy** a more structured and readable inspector—instantly!
-
----
-[![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity)](https://unity.com)
-
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)](./LICENSE)
-
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yourusername/MacroAttributes?style=for-the-badge)](https://github.com/yourusername/MacroAttributes/releases)
