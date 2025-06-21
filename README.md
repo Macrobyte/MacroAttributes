@@ -11,8 +11,7 @@
 </p>
 
 # 📦 MacroAttributes — Inspector Attributes for Unity
-A lightweight, open-source toolkit by Macrobyte (Vasco Almeida) that enhances readability, structure, and workflow in Unity’s Inspector using custom attributes.
-Instantly improve inspector clarity and polish.
+A lightweight kit that enhances readability, structure, and workflow in Unity’s Inspector using custom attributes.
 Ideal for reusing across your Unity games and tools, with clear and simple integration.
 
 ---
@@ -35,5 +34,4 @@ Ideal for reusing across your Unity games and tools, with clear and simple integ
     [Divider]
     [Category("Gameplay Settings", TextAnchor.MiddleCenter)]
     ```
-
-3. **Enjoy** a more structured and readable inspector—instantly!
+    
