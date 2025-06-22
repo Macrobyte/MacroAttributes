@@ -15,13 +15,13 @@
 A lightweight kit that enhances readability, structure, and workflow in Unity’s Inspector using custom attributes.
 Ideal for reusing across your Unity games and tools, with clear and simple integration.
 
-## 🔍 Features
+## Features
 
 - **ReadOnly**, **Divider**, **Category** – built-in attributes for cleaner and more organized inspectors.
 - Sticker-style visuals for inspector decoration—ideal for quick layout improvements.
 - Clean, modular code with a distinct namespace (`MacroAttributes`) to avoid conflicts.
 
-## 🛠 Getting Started
+## How to use
 
 1. **Drop** the `MacroAttributes` folder into your project.  
 2. **Decorate** your serialized fields like this:
@@ -48,7 +48,7 @@ public class GameSettings : MonoBehaviour
 }
 ```
 
-## ⚙️ Constructor Overloads
+## Constructor Overloads
 
 | Attribute       | Constructor Call                                       | Description                                       |
 | --------------- | ------------------------------------------------------ | ------------------------------------------------- |
