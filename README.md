@@ -1,4 +1,4 @@
-# 📦 MacroAttributes — Inspector Attributes for Unity
+# MacroAttributes — Inspector Attributes for Unity
 [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity)](https://unity.com)
 [![License: CC BY-ND 4.0](https://img.shields.io/badge/license-CC%20BY--ND%204.0%20International-lightgrey.svg?style=for-the-badge&logo=creativecommons)](https://creativecommons.org/licenses/by-nd/4.0/)
 [![Latest Release](https://img.shields.io/github/v/release/Macrobyte/MacroAttributes?style=for-the-badge)](https://github.com/macrobyte/MacroAttributes/releases)
