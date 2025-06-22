@@ -1,17 +1,8 @@
-<p align="center">
-  <a href="https://unity.com">
-    <img src="https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity" alt="Made with Unity" />
-  </a>
-  <a href="https://creativecommons.org/licenses/by-nd/4.0/">
-    <img src="https://img.shields.io/badge/license-CC%20BY--ND%204.0%20International-lightgrey.svg?style=for-the-badge&logo=creativecommons" alt="License: CC BY-ND 4.0" />
-  </a>
-  <a href="https://github.com/macrobyte/MacroAttributes/releases">
-    <img src="https://img.shields.io/github/v/release/Macrobyte/MacroAttributes?style=for-the-badge" alt="Latest Release" />
-    
-  </a>
-</p>
-
 # 📦 MacroAttributes — Inspector Attributes for Unity
+[![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=for-the-badge&logo=unity)](https://unity.com)
+[![License: CC BY-ND 4.0](https://img.shields.io/badge/license-CC%20BY--ND%204.0%20International-lightgrey.svg?style=for-the-badge&logo=creativecommons)](https://creativecommons.org/licenses/by-nd/4.0/)
+[![Latest Release](https://img.shields.io/github/v/release/Macrobyte/MacroAttributes?style=for-the-badge)](https://github.com/macrobyte/MacroAttributes/releases)
+
 A lightweight kit that enhances readability, structure, and workflow in Unity’s Inspector using custom attributes.
 Ideal for reusing across your Unity games and tools, with clear and simple integration.
 
