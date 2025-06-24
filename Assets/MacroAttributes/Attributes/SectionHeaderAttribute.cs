@@ -2,7 +2,6 @@
 
 namespace MacroAttributes
 {
-#if UNITY_EDITOR
     public class SectionHeaderAttribute : PropertyAttribute
     {
         public readonly string Label;
@@ -17,6 +16,4 @@ namespace MacroAttributes
 
         }
     }
-#endif
-    
 }
