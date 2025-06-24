@@ -6,11 +6,12 @@
 A lightweight kit that enhances readability, structure, and workflow in Unity’s Inspector using custom attributes.
 Ideal for reusing across your Unity games and tools, with clear and simple integration.
 
-## Features
+## Current Attributes
 
-- **ReadOnly**, **Divider**, **Category** – built-in attributes for cleaner and more organized inspectors.
-- Sticker-style visuals for inspector decoration—ideal for quick layout improvements.
-- Clean, modular code with a distinct namespace (`MacroAttributes`) to avoid conflicts.
+- **ReadOnly**
+- **Divider**
+- **SectionHeader**
+- **Foldout**
 
 ## How to use
 
@@ -18,24 +19,19 @@ Ideal for reusing across your Unity games and tools, with clear and simple integ
 2. **Decorate** your serialized fields like this:
 
 ```csharp
-using UnityEngine;
-using MacroAttributes;
-
 public class GameSettings : MonoBehaviour
 {
-     [SectionHeader("Gameplay Settings")]
-     [ReadOnly]
-     public int maxPlayers = 4;
-
-     [Divider]
-     
-     [SectionHeader("Graphics Settings", TextAnchor.MiddleCenter, 20)]
-     public bool enableShadows = true;
-     
-     [Divider(10f, "#FF0000")]
-     
-     [SectionHeader("Audio Settings", TextAnchor.MiddleRight, 18)]
-     public float masterVolume = 0.5f;
+    
+    [SectionHeader("Gameplay Settings", TextAnchor.MiddleCenter, 20)]
+    [Divider]
+    [ReadOnly] public int maxPlayers = 4;
+    
+    [Foldout("Graphics Settings")] public bool enableShadows = true;
+    [Foldout("Graphics Settings")] public int textureQuality = 2;
+    
+    [SectionHeader("Audio Settings", TextAnchor.MiddleCenter)]
+    [Divider("#FF9384")]
+    public float masterVolume = 0.5f;
 }
 ```
 
