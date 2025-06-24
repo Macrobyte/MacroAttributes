@@ -7,7 +7,7 @@ namespace MacroAttributes
         public readonly float Height;
         public readonly string HexColor;
         
-        public DividerAttribute(float height = 5f, string hexColor = "#808080")
+        public DividerAttribute(string hexColor = "#808080", float height = 5f)
         {
             Height = height;
             HexColor = hexColor;
