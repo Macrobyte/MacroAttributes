@@ -16,7 +16,7 @@ Ideal for reusing across your Unity games and tools, with clear and simple integ
 ## How to use
 
 1. **Drop** the `MacroAttributes` folder into your project.  
-2. **Decorate** your serialized fields like this:
+2. **Decorate** your exposed properties:
 
 ```csharp
 public class GameSettings : MonoBehaviour
